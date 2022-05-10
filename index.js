@@ -19,6 +19,6 @@ const set = function () {
 setTimeout(function () {
   console.log('eeee');
   app.classList.add('bg-yellow');
-  set();
+  //set();
 }, 3000);
 console.log('dddd');
